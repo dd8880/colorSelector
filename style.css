@@ -1,0 +1,92 @@
+#text:hover {
+  animation: 3s multicolor;
+  -webkit-animation: 3s multicolor;
+}
+@keyframes multicolor {
+  0% {
+    color: #a2c9f0;
+  }
+  33% {
+    color: #dab5dd;
+  }
+  66% {
+    color: #bbd7bb;
+  }
+  100% {
+    color: #e1d0b1;
+  }
+}
+
+main {
+  width: 230px;
+  margin: 10rem auto;
+  /* background-color: #d4d5d6; */
+  box-shadow: -1px 8px 14px -6px rgba(66, 65, 65, 0.75);
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+
+.output {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.values {
+  margin: 1rem auto;
+  width: 200px;
+}
+
+.values > * {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li > a {
+  text-decoration: none;
+  color: #333;
+  padding: 1rem;
+}
+
+a.active {
+  color: #731a06;
+}
+
+main#frontpage {
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+
+main#frontpage a {
+  color: #424242;
+}
+
+main#frontpage a:hover {
+  color: #696969;
+}
